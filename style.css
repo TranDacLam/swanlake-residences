@@ -1,0 +1,23 @@
+/*
+Theme Name: LAMTD Landing page 
+Theme URI:
+Author: tdlam2105@gmail.com
+Author URI:
+Description:
+Version: 2
+License: GNU General Public License     v2 or later
+License URI:
+Text Domain:
+*/
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+label.error{
+    color: red;
+    font-size: 13px;
+    font-style: italic;
+}
+.landing-page .contact__form input{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
