@@ -146,7 +146,7 @@
 	}
 
 	.s5{
-		padding: 60px 0;
+		padding: 60px 0 0;
 		background-color: #233331;
 		&-wrapper{
 		}
@@ -163,6 +163,27 @@
 		&__title{
 			text-transform: uppercase;
 			margin-bottom: 28px;
+		}
+		&__slide{
+			position: relative;
+		}
+		&__item{
+			position: relative;
+			&-title{
+				font-weight: 700;
+				margin-bottom: 20px;
+			}
+			&-desc{
+				margin-bottom: 36px;
+			}
+			&-content{
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				text-align: center;
+				padding: 0 42px;
+			}
 		}
 
 	}

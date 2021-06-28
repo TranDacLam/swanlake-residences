@@ -28,11 +28,11 @@ h4 {
 
 h5 {
   font-family: "Garamond-Premr-Pro";
-  font-size: 16px; }
+  font-size: 18px; }
 
 h6 {
   font-family: "Garamond-Premr-Pro";
-  font-size: 14px; }
+  font-size: 16px; }
 
 img {
   max-width: 100%; }
@@ -167,7 +167,7 @@ img {
     margin-top: 60px; }
 
 .landing-page .s5 {
-  padding: 60px 0;
+  padding: 60px 0 0;
   background-color: #233331; }
   .landing-page .s5__content {
     text-align: center; }
@@ -180,6 +180,22 @@ img {
   .landing-page .s5__title {
     text-transform: uppercase;
     margin-bottom: 28px; }
+  .landing-page .s5__slide {
+    position: relative; }
+  .landing-page .s5__item {
+    position: relative; }
+    .landing-page .s5__item-title {
+      font-weight: 700;
+      margin-bottom: 20px; }
+    .landing-page .s5__item-desc {
+      margin-bottom: 36px; }
+    .landing-page .s5__item-content {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+      padding: 0 42px; }
 
 .loading-scren {
   position: absolute;

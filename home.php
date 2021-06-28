@@ -152,7 +152,35 @@ $source = implode(' - ',$_GET);
 					</p>
 				</div>
 				<div class="s5__slide">
-
+					<div class="swiper-wrapper">
+						<div class="s5__item">
+							<div class="s5__item-img">
+								<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-1.png" />
+							</div>
+							<div class="s5__item-content">
+								<p class="s5__item-title">5 phòng xông hơi hiện đại </p>
+								<p class="s5__item-desc">Phòng xông hơi khô Loyly, phòng xông nóng, phòng xông lạnh, phòng xông thảo mộc & phòng xông hơi đá muối Hymalaya</p>
+							</div>
+						</div>
+						<div class="s5__item">
+							<div class="s5__item-img">
+								<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-2.png" />
+							</div>
+							<div class="s5__item-content">
+								<p class="s5__item-title">5 phòng xông hơi hiện đại </p>
+								<p class="s5__item-desc">Phòng xông hơi khô Loyly, phòng xông nóng, phòng xông lạnh, phòng xông thảo mộc & phòng xông hơi đá muối Hymalaya</p>
+							</div>
+						</div>
+						<div class="s5__item">
+							<div class="s5__item-img">
+								<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-3.png" />
+							</div>
+							<div class="s5__item-content">
+								<p class="s5__item-title">5 phòng xông hơi hiện đại </p>
+								<p class="s5__item-desc">Phòng xông hơi khô Loyly, phòng xông nóng, phòng xông lạnh, phòng xông thảo mộc & phòng xông hơi đá muối Hymalaya</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
