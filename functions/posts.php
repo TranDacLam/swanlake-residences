@@ -377,7 +377,7 @@ function ajaxRegister()
                 'quanlytaikhoandxmn@gmail.com'
             ];
             foreach ($emails as $email) {
-                $sentMail = wp_mail($email, '[Garden Riverside LandingPage] - Liên hệ mới', $message, ['Content-Type: text/html; charset=UTF-8']);
+                $sentMail = wp_mail($email, '[Swanlake Residences LandingPage] - Liên hệ mới', $message, ['Content-Type: text/html; charset=UTF-8']);
             }
 
             $result = [

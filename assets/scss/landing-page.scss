@@ -1,5 +1,171 @@
-.lannding-page{
+.landing-page{
+
+	.header{
+		height: $height-header;
+		position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+		background-color: $background-color-light;
+
+		&__content{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			position: relative;
+			height: 100%;
+		}
+		&__top{
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			height: 5px;
+			background-color: $line-color;
+		}
+		&__left{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		&__logo{
+			padding: 20px 16px 12px;
+			background-color: $line-color;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+		&__name{
+			font-family: 'Garamond-Premr-Pro';
+			letter-spacing: 5px;
+			font-size: 13px;
+			margin-left: 120px;
+			margin-bottom: -8px;
+		}
+		&__right{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100%;
+			a{
+				margin-left: 12px;
+			}
+			span{
+				font-size: 13px;
+			}
+		}
+		&__line{
+			width: 1px;
+			height: 100%;
+			background-color: $line-color;
+			margin: 0 30px;
+		}
+	}
+
+	.main{
+		padding-top: $height-header;
+	}
 	
+	section{
+		width: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+	.section-item{
+		display: flex;
+		align-items: center;
+		margin-bottom: 48px;
+		&__line{
+			width: 10px;
+			height: 30px;
+			background-color: $line-color;
+			margin-right: 20px;
+		}
+		span{
+			font-family: 'Garamond-Premr-Pro';
+		}
+	}
+	.s1{
+		padding: 200px 0;
+		&-wrapper{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+
+	.s2{
+		padding: 150px 0;
+		&-wrapper{
+		}
+	}
+
+	.s3{
+		padding: 60px 0;
+		&-wrapper{
+		}
+		&__title{
+			text-transform: uppercase;
+			margin-bottom: 42px;
+		}
+		&__content{
+			padding-right: 80px;
+		}
+		&__icon{
+			margin-top: 60px;
+			img:first-child{
+				margin-right: 60px;
+			}
+		}
+		&__img{
+			img{
+			}
+		}
+	}
+
+	.s4{
+		background-color: $background-color-light;
+		&-wrapper{
+		}
+		&__title{
+			text-transform: uppercase;
+			margin-bottom: 42px;
+		}
+		&__content{
+			padding: 60px 0 60px 80px;
+		}
+		&__icon{
+			margin-top: 60px;
+		}
+		&__img{
+			img{
+			}
+		}
+	}
+
+	.s5{
+		padding: 60px 0;
+		background-color: #233331;
+		&-wrapper{
+		}
+		&__content{
+			text-align: center;
+		}
+		&__subtitle{
+			color: #60b0a4;
+			font-size: 13px;
+			font-family: 'Garamond-Premr-Pro';
+			text-transform: uppercase;
+			margin-bottom: 28px;
+		}
+		&__title{
+			text-transform: uppercase;
+			margin-bottom: 28px;
+		}
+
+	}
 }
 
 
