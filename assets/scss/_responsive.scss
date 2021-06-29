@@ -80,6 +80,15 @@
 				}
 			}
 		}
+		.s7{
+			&-info{
+				&__box{
+					&:after{
+						display: none;
+					}
+				}
+			}
+		}
 		.s8{
 			.row{
 				position: relative;

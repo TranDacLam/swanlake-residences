@@ -329,6 +329,59 @@ $source = implode(' - ',$_GET);
 			</div>
 		</section>
 
+		<div class="s7-info">
+			<div class="s7-info__box no-pic" data-box="01">
+				<div class="s7-info__box-text">
+					<p>Trường liên cấp Edison & 20+ trường mẫu giáo</p>
+				</div>
+			</div>
+			<div class="s7-info__box no-pic" data-box="02">
+				<div class="s7-info__box-text">
+					<p>Trường liên cấp Edison & 20+ trường mẫu giáo</p>
+				</div>
+			</div>
+			<div class="s7-info__box no-pic" data-box="03">
+				<div class="s7-info__box-text">
+					<p>Trường liên cấp Edison & 20+ trường mẫu giáo</p>
+				</div>
+			</div>
+			<div class="s7-info__box no-pic" data-box="04">
+				<div class="s7-info__box-text">
+					<p>Trường liên cấp Edison & 20+ trường mẫu giáo</p>
+				</div>
+			</div>
+			<div class="s7-info__box no-pic" data-box="05">
+				<div class="s7-info__box-text">
+					<p>Trường liên cấp Edison & 20+ trường mẫu giáo</p>
+				</div>
+			</div>
+			<div class="s7-info__box no-pic" data-box="06">
+				<div class="s7-info__box-text">
+					<p>Trường liên cấp Edison & 20+ trường mẫu giáo</p>
+				</div>
+			</div>
+			<div class="s7-info__box no-pic" data-box="07">
+				<div class="s7-info__box-text">
+					<p>Trường liên cấp Edison & 20+ trường mẫu giáo</p>
+				</div>
+			</div>
+			<div class="s7-info__box no-pic" data-box="08">
+				<div class="s7-info__box-text">
+					<p>Trường liên cấp Edison & 20+ trường mẫu giáo</p>
+				</div>
+			</div>
+			<div class="s7-info__box no-pic" data-box="09">
+				<div class="s7-info__box-text">
+					<p>Trường liên cấp Edison & 20+ trường mẫu giáo</p>
+				</div>
+			</div>
+			<div class="s7-info__box no-pic" data-box="10">
+				<div class="s7-info__box-text">
+					<p>Trường liên cấp Edison & 20+ trường mẫu giáo</p>
+				</div>
+			</div>
+		</div>
+
 		<section class="section s8 lazy" id="s8" data-bg="<?php echo THEME_URL  ?>/assets/images/s8-bg.png">
 			<div class="s8-wrapper container">
 				<div class="row">
