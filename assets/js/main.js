@@ -87,7 +87,8 @@ $(function () {
 	$('#loading').css({ 'opacity': '0' });
 	$('#loading').css({ 'display': 'none' });
 	var myLazyLoad = new LazyLoad();
-	AOS.init();
+	
+	new WOW().init();
 
 	scaleAndPositionImage()
 	$( window ).resize(function() {
@@ -124,7 +125,7 @@ function tooltipS7(){
 		let elInfo = $(`.s7-info__box[data-box=${name}]`)
 		let widthInfo = elInfo.outerWidth()
 		let heightInfo = elInfo.outerHeight()
-		let offetLeft = offset.left - (widthInfo/2) + 8
+		let offetLeft = offset.left - (widthInfo/2) + 7
 		let offetTop = offset.top - 60 - heightInfo
 		console.log("elInfo", offset.right)
 		elInfo.addClass('show')

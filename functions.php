@@ -23,7 +23,7 @@ function r_scripts_styles()
     $version = time();
 
     wp_enqueue_style('bootstrap.min.css', THEME_URL . '/assets/css/bootstrap.min.css', array(), 1);
-    wp_enqueue_style('aos.css', THEME_URL . '/assets/css/aos.css', array(), 1);
+    wp_enqueue_style('animate.css', THEME_URL . '/assets/css/animate.min.css', array(), 1);
     wp_enqueue_style('swiper.css', THEME_URL . '/assets/css/swiper.min.css', array(), 1);
     // wp_enqueue_style('fullpage.css', THEME_URL . '/assets/css/fullpage.css', array(), 1);
     wp_enqueue_style('sweet-alert.css', THEME_URL . '/assets/css/sweet-alert.css', array(), 1);
@@ -40,7 +40,7 @@ function r_scripts_styles()
      wp_enqueue_script('jquery.validate.min.js', THEME_URL . '/assets/js/jquery.validate.min.js', array(), 1, false);
     wp_enqueue_script('sweet-alert.min.js', THEME_URL . '/assets/js/sweet-alert.min.js', array(), 1, false);
     wp_enqueue_script('swiper.min.js', THEME_URL . '/assets/js/swiper.min.js', array(), 1, false);
-    wp_enqueue_script('aos.js', THEME_URL . '/assets/js/aos.js', array(), 1, false);
+    wp_enqueue_script('wow.min.js', THEME_URL . '/assets/js/wow.min.js', array(), 1, false);
     wp_enqueue_script('lazyload.min.js', THEME_URL . '/assets/js/lazyload.min.js', array(), 1, false);
     // wp_enqueue_script('jquery.magnific-popup.js', THEME_URL . '/assets/js/jquery.magnific-popup.js', array(), 1, true);
     // wp_enqueue_script('fullpage.js', THEME_URL . '/assets/js/fullpage.js', array(), 1, true);

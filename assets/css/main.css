@@ -523,13 +523,13 @@ img {
       margin: 0;
       border-width: 2px;
       border-color: #42776f;
-      max-height: 60px;
+      max-height: 0;
       transition: max-height .5s ease-in-out; }
     .landing-page .s7-info__box.show {
       transform: scale(1);
       opacity: 1; }
       .landing-page .s7-info__box.show:after {
-        height: 100%;
+        min-height: 60px;
         max-height: 60px; }
     .landing-page .s7-info__box p {
       font-size: 15px;

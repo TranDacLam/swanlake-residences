@@ -21,7 +21,7 @@ $source = implode(' - ',$_GET);
 		<div class="header__top"></div>
 		<div class="container header__content">
 			<div class="header__left">
-				<div class="header__logo">
+				<div class="header__logo wow bounceInUp">
 					<img src="<?php echo THEME_URL  ?>/assets/images/logo.png" />
 				</div>
 				<div class="header__name">
@@ -200,13 +200,31 @@ $source = implode(' - ',$_GET);
 								<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-1.png" />
 							</div>
 							<div class="s5__item-content">
-								<p class="s5__item-title">5 phòng xông hơi hiện đại </p>
-								<p class="s5__item-desc">Phòng xông hơi khô Loyly, phòng xông nóng, phòng xông lạnh, phòng xông thảo mộc & phòng xông hơi đá muối Hymalaya</p>
+								<p class="s5__item-title">Tổ hợp bất động sản trị liệu đầu tiên tại Việt Nam</p>
+								<p class="s5__item-desc">Toàn bộ các tiện ích chăm sóc sức khoẻ của toà tháp được phát triển như một đại trung tâm trị liệu, vận hành theo một quy trình khép kín từ tư vấn, trị liệu, chăm sóc đến tái tạo và nghỉ ngơi </p>
 							</div>
 						</div>
 						<div class="s5__item swiper-slide">
 							<div class="s5__item-img">
 								<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-2.png" />
+							</div>
+							<div class="s5__item-content">
+								<p class="s5__item-title">Tổ hợp khoáng nóng Onsen 2,400m2</p>
+								<p class="s5__item-desc"></p>
+							</div>
+						</div>
+						<div class="s5__item swiper-slide">
+							<div class="s5__item-img">
+								<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-3.png" />
+							</div>
+							<div class="s5__item-content">
+								<p class="s5__item-title">14 hồ khoáng nóng & lạnh</p>
+								<p class="s5__item-desc"></p>
+							</div>
+						</div>
+						<div class="s5__item swiper-slide">
+							<div class="s5__item-img">
+								<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-3.png" />
 							</div>
 							<div class="s5__item-content">
 								<p class="s5__item-title">5 phòng xông hơi hiện đại </p>
@@ -218,8 +236,44 @@ $source = implode(' - ',$_GET);
 								<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-3.png" />
 							</div>
 							<div class="s5__item-content">
-								<p class="s5__item-title">5 phòng xông hơi hiện đại </p>
-								<p class="s5__item-desc">Phòng xông hơi khô Loyly, phòng xông nóng, phòng xông lạnh, phòng xông thảo mộc & phòng xông hơi đá muối Hymalaya</p>
+								<p class="s5__item-title">Hồ bơi thác nước</p>
+								<p class="s5__item-desc"></p>
+							</div>
+						</div>
+						<div class="s5__item swiper-slide">
+							<div class="s5__item-img">
+								<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-3.png" />
+							</div>
+							<div class="s5__item-content">
+								<p class="s5__item-title">Detox Spa</p>
+								<p class="s5__item-desc">Chuỗi phòng detox thuỷ liệu, quang học và khí detox; Chuỗi nhà hàng & cửa hàng chuyên cung cấp các liệu trình detox; trung tâm khí liệu chuyên dạy yoga & phương pháp dưỡng sinh</p>
+							</div>
+						</div>
+						<div class="s5__item swiper-slide">
+							<div class="s5__item-img">
+								<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-3.png" />
+							</div>
+							<div class="s5__item-content">
+								<p class="s5__item-title">Central Spa</p>
+								<p class="s5__item-desc">Trung tâm spa với các công nghệ chăm sóc da, chăm sóc tóc, chăm sóc body với các loại máy móc hiện đại bậc nhất</p>
+							</div>
+						</div>
+						<div class="s5__item swiper-slide">
+							<div class="s5__item-img">
+								<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-3.png" />
+							</div>
+							<div class="s5__item-content">
+								<p class="s5__item-title">Aqua Spa</p>
+								<p class="s5__item-desc">Phòng lạnh âm, phòng nóng - lạnh đối lưu, phòng thuỷ thanh lọc</p>
+							</div>
+						</div>
+						<div class="s5__item swiper-slide">
+							<div class="s5__item-img">
+								<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-3.png" />
+							</div>
+							<div class="s5__item-content">
+								<p class="s5__item-title">Vườn thiền ion âm & vườn đá muối hồng ngoại Himalaya đầu tiên tại Việt Nam</p>
+								<p class="s5__item-desc">Với công nghệ đưa ion âm vào các vườn thiền, trung hoà lượng ion dương cơ thể tiếp thu từ năng lượng điện tử có trong điện thoại, laptop, ô nhiễm, khói bụi từ môi trường. Từ đó giúp cơ thể ức chế các vi khuẩn, tăng cường trao đổi oxy giúp cơ thể khoẻ hơn, ngủ ngon hơn.</p>
 							</div>
 						</div>
 					</div>
@@ -332,47 +386,47 @@ $source = implode(' - ',$_GET);
 		<div class="s7-info">
 			<div class="s7-info__box no-pic" data-box="01">
 				<div class="s7-info__box-text">
-					<p>Trường liên cấp Edison & 20+ trường mẫu giáo</p>
+					<p>Phố shopping, giải trí 7,5km</p>
 				</div>
 			</div>
 			<div class="s7-info__box no-pic" data-box="02">
 				<div class="s7-info__box-text">
-					<p>Trường liên cấp Edison & 20+ trường mẫu giáo</p>
+					<p>Trường PTLC Quốc Tế Chadwick</p>
 				</div>
 			</div>
 			<div class="s7-info__box no-pic" data-box="03">
 				<div class="s7-info__box-text">
-					<p>Trường liên cấp Edison & 20+ trường mẫu giáo</p>
+					<p>Hồ thiên nga 50ha</p>
 				</div>
 			</div>
 			<div class="s7-info__box no-pic" data-box="04">
 				<div class="s7-info__box-text">
-					<p>Trường liên cấp Edison & 20+ trường mẫu giáo</p>
+					<p>Trường Đại học y khoa Tokyo</p>
 				</div>
 			</div>
 			<div class="s7-info__box no-pic" data-box="05">
 				<div class="s7-info__box-text">
-					<p>Trường liên cấp Edison & 20+ trường mẫu giáo</p>
+					<p>Trường Đại học BUV</p>
 				</div>
 			</div>
 			<div class="s7-info__box no-pic" data-box="06">
 				<div class="s7-info__box-text">
-					<p>Trường liên cấp Edison & 20+ trường mẫu giáo</p>
+					<p>Bệnh viện Đại học Y Khoa Tokyo</p>
 				</div>
 			</div>
 			<div class="s7-info__box no-pic" data-box="07">
 				<div class="s7-info__box-text">
-					<p>Trường liên cấp Edison & 20+ trường mẫu giáo</p>
+					<p>THơn 100+ nhà hàng & coffee giữa thiên nhiên</p>
 				</div>
 			</div>
 			<div class="s7-info__box no-pic" data-box="08">
 				<div class="s7-info__box-text">
-					<p>Trường liên cấp Edison & 20+ trường mẫu giáo</p>
+					<p>Sân golf 9 hố</p>
 				</div>
 			</div>
 			<div class="s7-info__box no-pic" data-box="09">
 				<div class="s7-info__box-text">
-					<p>Trường liên cấp Edison & 20+ trường mẫu giáo</p>
+					<p>Trung tâm mua sắm trên mặt nước</p>
 				</div>
 			</div>
 			<div class="s7-info__box no-pic" data-box="10">

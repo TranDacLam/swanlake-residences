@@ -578,14 +578,14 @@
 					margin: 0;
 					border-width: 2px;
 					border-color: $line-color;
-					max-height: 60px;
+					max-height: 0;
 					transition: max-height .5s ease-in-out;
 				}
 				&.show{
 					transform: scale(1);
 					opacity: 1;
 					&:after{
-						height: 100%;
+						min-height: 60px;
 						max-height: 60px;
 					}
 				}
