@@ -88,4 +88,23 @@ $(function () {
 	$('#loading').css({ 'display': 'none' });
 	var myLazyLoad = new LazyLoad();
 
+	scaleAndPositionImage()
+	$( window ).resize(function() {
+		scaleAndPositionImage()
+	});
+
 })
+
+function scaleAndPositionImage() {
+	let elBg = $('.s7__bg')
+	let originalWidth = 2600
+	let originalHeight = 1600
+	let scaleX = 0.61
+	let scaleY = 0.61
+	let widthScreen = $( window ).width()
+	let heightScreen = $( window ).height()
+	console.log(widthScreen, heightScreen)
+	let left = (widthScreen - originalWidth) / 2
+	let top = (heightScreen - originalHeight) / 2
+	elBg && elBg.css({'left': `${left}px`, 'top': `${top}px`, 'transform': `scale(${scaleX}, ${scaleY})`})
+}

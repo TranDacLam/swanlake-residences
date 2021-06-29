@@ -311,7 +311,20 @@ $source = implode(' - ',$_GET);
 					</div>
 				</div>
 				<div class="s7__img">
-					<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s7-img.png" />
+					<div class="s7__bg lazy" data-bg="<?php echo THEME_URL  ?>/assets/images/s7-img.png">
+						<div class="all-dot">
+							<a class="dot-num dot-01 show" href="javascript:void(0);" data-name="01" data-box="01"><span class="circle"></span></a>
+							<a class="dot-num dot-02 show" href="javascript:void(0);" data-name="02" data-box="02"><span class="circle"></span></a>
+							<a class="dot-num dot-03 show" href="javascript:void(0);" data-name="03" data-box="03"><span class="circle"></span></a>
+							<a class="dot-num dot-04 show" href="javascript:void(0);" data-name="04" data-box="04"><span class="circle"></span></a>
+							<a class="dot-num dot-05 show" href="javascript:void(0);" data-name="05" data-box="05"><span class="circle"></span></a>
+							<a class="dot-num dot-06 show" href="javascript:void(0);" data-name="06" data-box="06"><span class="circle"></span></a>
+							<a class="dot-num dot-07 show" href="javascript:void(0);" data-name="07" data-box="07"><span class="circle"></span></a>
+							<a class="dot-num dot-08 show" href="javascript:void(0);" data-name="08" data-box="08"><span class="circle"></span></a>
+							<a class="dot-num dot-09 show" href="javascript:void(0);" data-name="09" data-box="09"><span class="circle"></span></a>
+							<a class="dot-num dot-10 show" href="javascript:void(0);" data-name="10" data-box="10"><span class="circle"></span></a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
