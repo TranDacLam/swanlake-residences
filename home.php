@@ -324,7 +324,7 @@ $source = implode(' - ',$_GET);
 					</div>
 					<div class="col-lg-4 col-md-6 col-xs-12 s6__item swiper-slide">
 						<div class="s6__item-img">
-							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s6-img-3.png" />
+							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s6-img-3.jpg" />
 						</div>
 						<p class="s6__item-title">Vườn thiền</p>
 					</div>
@@ -342,7 +342,7 @@ $source = implode(' - ',$_GET);
 					</div>
 					<div class="col-lg-4 col-md-6 col-xs-12 s6__item swiper-slide">
 						<div class="s6__item-img">
-							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s6-img-6.jpeg" />
+							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s6-img-6.jpg" />
 						</div>
 						<p class="s6__item-title">Đường dạo hoa Tử Đằng đầu tiên của Việt Nam </p>
 					</div>
