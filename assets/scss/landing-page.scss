@@ -292,12 +292,15 @@
 			&-title{
 				font-weight: 700;
 				margin-bottom: 20px;
+				text-shadow: 0 1px 5px #000000b0;
 			}
 			&-desc{
 				margin-bottom: 0;
 				max-height: 0;
 				overflow: hidden;
 				transition: max-height .7s ease-in-out;
+				text-shadow: 0 1px 5px #000000b0;
+				font-weight: 500;
 			}
 			&-content{
 				position: absolute;

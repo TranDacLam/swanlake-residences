@@ -21,35 +21,35 @@ $source = implode(' - ',$_GET);
 		<div class="header__top"></div>
 		<div class="container header__content">
 			<div class="header__left">
-				<div class="header__logo wow slideInDown animated">
+				<div class="header__logo wow slideInDown" data-wow-delay=".5s">
 					<img src="<?php echo THEME_URL  ?>/assets/images/logo.png" />
 				</div>
-				<div class="header__name wow rollIn animated" data-wow-delay=".4s">
+				<div class="header__name wow slideInLeft">
 					SWANLAKE RESIDENCES
 				</div>
 			</div>
 	
-			<div class="header__right">
+			<div class="header__right wow slideInRight" data-wow-duration="1.5s">
 				<div class="header__social">
-					<span class="wow bounceInDown" data-wow-delay=".8s">Social Media</span>
-					<a href="https://www.facebook.com/ecopark.com.vn" target="_blank" class="wow bounceInDown" data-wow-delay="1.2s">
+					<span>Social Media</span>
+					<a href="https://www.facebook.com/ecopark.com.vn" target="_blank">
 						<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/facebook.png" />
 					</a>
-					<a href="https://youtube.com/c/EcoparkOfficial" target="_blank" class="wow bounceInDown" data-wow-delay="1.6s">
+					<a href="https://youtube.com/c/EcoparkOfficial" target="_blank">
 						<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/youtube.png" />
 					</a>
 				</div>
-				<div class="header__line wow bounceInDown" data-wow-delay="1.8s"></div>
+				<div class="header__line"></div>
 				<div class="header__contact">
-					<span class="wow bounceInDown" data-wow-delay="2s">Gửi Liên Hệ</span>
-					<a href="#s9" class="wow bounceInDown" data-wow-delay="2.2s">
+					<span>Gửi Liên Hệ</span>
+					<a href="#s9">
 						<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/mail.png" />
 					</a>
 				</div>
-				<div class="header__line wow bounceInDown" data-wow-delay="2.4s"></div>
+				<div class="header__line"></div>
 				<div class="header__menu">
-					<span class="wow bounceInDown" data-wow-delay="2.6s">MENU</span>
-					<a id="btn-navbar" class="wow bounceInDown" data-wow-delay="3s">
+					<span>MENU</span>
+					<a id="btn-navbar">
 						<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/menu.png" />
 					</a>
 				</div>
@@ -100,7 +100,7 @@ $source = implode(' - ',$_GET);
 
 		<section class="section s1" id="s1">
 			<div class="s1-wrapper">
-				<img class="lazy wow bounceInDown" data-wow-duration="2s" data-src="<?php echo THEME_URL  ?>/assets/images/s1-title.png" />
+				<img class="lazy wow zoomIn" data-wow-duration="2s" data-src="<?php echo THEME_URL  ?>/assets/images/s1-title.png" />
 			</div>
 		</section>
 
@@ -109,7 +109,7 @@ $source = implode(' - ',$_GET);
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-5">
-							<img class="lazy wow zoomInLeft" data-wow-duration="1.5s" data-wow-offset="120" data-src="<?php echo THEME_URL  ?>/assets/images/s2-title.png" />
+							<img class="lazy wow zoomInLeft" data-wow-duration="1.7s" data-wow-offset="120" data-src="<?php echo THEME_URL  ?>/assets/images/s2-title.png" />
 						</div>
 					</div>
 				</div>
@@ -452,8 +452,8 @@ $source = implode(' - ',$_GET);
 							<p class="s8__content-subtle">Layout tầng điển hình</p>
 							<h3 class="s8__content-title">Swanlake residences R1</h3>
 							<p class="s8__content-desc">Tầng 08A - 18, 22 - 37</p>
-							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s8-img-1.png" />
-							<p class="s8__content-note">* Mọi thông tin trên layout đúng tại thời điểm phát hành, thông số đúng được quy định tại văn bản Chủ đầu tư ký kết với Khách hàng Swanlake residence R1  18/06/2021</p>
+							<!-- <img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s8-img-1.png" />
+							<p class="s8__content-note">* Mọi thông tin trên layout đúng tại thời điểm phát hành, thông số đúng được quy định tại văn bản Chủ đầu tư ký kết với Khách hàng Swanlake residence R1  18/06/2021</p> -->
 					</div>
 					<div class="col-lg-6 s8__img wow wobble" data-wow-delay=".4s" data-wow-duration="1.5s">
 						<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s8-img-2.png" />
