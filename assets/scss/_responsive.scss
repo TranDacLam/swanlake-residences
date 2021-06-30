@@ -106,6 +106,9 @@
 		.s2{
 			padding: 80px 0;
 		}
+		.s3{
+			padding-bottom: 0;
+		}
 		.s5{
 			&__desc{
 				max-width: 100%;
@@ -114,6 +117,11 @@
 		.s6{
 			&__desc{
 				max-width: 100%;
+			}
+		}
+		.s8{
+			&__content{
+				margin-top: 0;
 			}
 		}
 		.contact{
@@ -162,6 +170,21 @@
 			}
 			&__desc{
 				max-width: 100%;
+			}
+		}
+		.s8{
+			&__content{
+				img{
+					margin-left: auto;
+					margin-right: auto;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+			}
+			&__icon{
+				position: initial;
+				justify-content: center;
 			}
 		}
 	}

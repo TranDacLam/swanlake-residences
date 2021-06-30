@@ -374,7 +374,8 @@ function ajaxRegister()
 
             //vylht@ecopark.com.vn
             $emails = [
-                'quanlytaikhoandxmn@gmail.com'
+                'vylht@ecopark.com.vn',
+                'anhdc@ecopark.com.vn'
             ];
             foreach ($emails as $email) {
                 $sentMail = wp_mail($email, '[Swanlake Residences LandingPage] - Liên hệ mới', $message, ['Content-Type: text/html; charset=UTF-8']);

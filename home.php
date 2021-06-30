@@ -21,35 +21,35 @@ $source = implode(' - ',$_GET);
 		<div class="header__top"></div>
 		<div class="container header__content">
 			<div class="header__left">
-				<div class="header__logo wow bounceInUp">
+				<div class="header__logo wow slideInDown animated">
 					<img src="<?php echo THEME_URL  ?>/assets/images/logo.png" />
 				</div>
-				<div class="header__name">
+				<div class="header__name wow rollIn animated" data-wow-delay=".4s">
 					SWANLAKE RESIDENCES
 				</div>
 			</div>
 	
 			<div class="header__right">
 				<div class="header__social">
-					<span>Social Media</span>
-					<a href="#" target="_blank">
+					<span class="wow bounceInDown" data-wow-delay=".8s">Social Media</span>
+					<a href="https://www.facebook.com/ecopark.com.vn" target="_blank" class="wow bounceInDown" data-wow-delay="1.2s">
 						<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/facebook.png" />
 					</a>
-					<a href="#" target="_blank">
+					<a href="https://youtube.com/c/EcoparkOfficial" target="_blank" class="wow bounceInDown" data-wow-delay="1.6s">
 						<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/youtube.png" />
 					</a>
 				</div>
-				<div class="header__line"></div>
+				<div class="header__line wow bounceInDown" data-wow-delay="1.8s"></div>
 				<div class="header__contact">
-					<span>Gửi Liên Hệ</span>
-					<a href="#s9">
+					<span class="wow bounceInDown" data-wow-delay="2s">Gửi Liên Hệ</span>
+					<a href="#s9" class="wow bounceInDown" data-wow-delay="2.2s">
 						<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/mail.png" />
 					</a>
 				</div>
-				<div class="header__line"></div>
+				<div class="header__line wow bounceInDown" data-wow-delay="2.4s"></div>
 				<div class="header__menu">
-					<span>MENU</span>
-					<a id="btn-navbar">
+					<span class="wow bounceInDown" data-wow-delay="2.6s">MENU</span>
+					<a id="btn-navbar" class="wow bounceInDown" data-wow-delay="3s">
 						<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/menu.png" />
 					</a>
 				</div>
@@ -100,7 +100,7 @@ $source = implode(' - ',$_GET);
 
 		<section class="section s1" id="s1">
 			<div class="s1-wrapper">
-				<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s1-title.png" />
+				<img class="lazy wow bounceInDown" data-wow-duration="2s" data-src="<?php echo THEME_URL  ?>/assets/images/s1-title.png" />
 			</div>
 		</section>
 
@@ -109,7 +109,7 @@ $source = implode(' - ',$_GET);
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-5">
-							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s2-title.png" />
+							<img class="lazy wow zoomInLeft" data-wow-duration="1.5s" data-wow-offset="120" data-src="<?php echo THEME_URL  ?>/assets/images/s2-title.png" />
 						</div>
 					</div>
 				</div>
@@ -121,27 +121,27 @@ $source = implode(' - ',$_GET);
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-6 s3__content">
-							<div class="section-item">
+							<div class="section-item wow fadeInUpBig" data-wow-delay="1s">
 								<div class="section-item__line"></div>
 								<span>ĐỐI TÁC</span>
 							</div>
-							<h3 class="s3__title">
+							<h3 class="s3__title wow fadeInUpBig" data-wow-delay="1.4s">
 								Hợp tác với tập đoàn bất động sản lớn nhất tại Nhật Bản 
 							</h3>
 							<div>
-								<p>Lần đầu tiên tại Việt Nam, Ecopark mang đến mô hình nghỉ dưỡng khoáng nóng tại gia.</p>
-								<p>
+								<p class="wow fadeInUpBig" data-wow-delay="1.8s">Lần đầu tiên tại Việt Nam, Ecopark mang đến mô hình nghỉ dưỡng khoáng nóng tại gia.</p>
+								<p class="wow fadeInUpBig" data-wow-delay="2.2s">
 								Tại chính ngôi nhà bạn, bạn có thể trải nghiệm khoáng nóng bất kì lúc nào bạn muốn,<br>
 								Tại chính ngôi nhà bạn, bạn có thể tận hưởng cuộc sống nghỉ dưỡng 365 ngày cho chính bản thân & gia đình.
 								</p>
 							</div>
 							<div class="s3__icon">
-								<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s3-icon-1.png" />
-								<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s3-icon-2.png" />
+								<img class="lazy wow fadeInUpBig" data-wow-delay="2.4s" data-src="<?php echo THEME_URL  ?>/assets/images/s3-icon-1.png" />
+								<img class="lazy wow fadeInUpBig" data-wow-delay="2.8s" data-src="<?php echo THEME_URL  ?>/assets/images/s3-icon-2.png" />
 							</div>
 						</div>
 						<div class="col-lg-6 s3__img">
-							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s3-img-1.png" />
+							<img class="lazy wow bounceInRight" data-wow-delay=".6s" data-src="<?php echo THEME_URL  ?>/assets/images/s3-img-1.png" />
 						</div>
 					</div>
 				</div>
@@ -153,21 +153,21 @@ $source = implode(' - ',$_GET);
 				<div class="container">
 					<div class="row">
 						<div class="s4__img">
-							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s4-img-1.png" />
+							<img class="lazy wow bounceInLeft" data-wow-delay=".6s" data-src="<?php echo THEME_URL  ?>/assets/images/s4-img-1.png" />
 						</div>
 
 						<div class="col-lg-6">
 						</div>
 
 						<div class="col-lg-6 s4__content">
-							<div class="section-item">
+							<div class="section-item wow fadeInRightBig" data-wow-delay="1s">
 								<div class="section-item__line"></div>
 								<span>CÔNG NGHỆ KHOÁNG NÓNG</span>
 							</div>
-							<h3 class="s4__title">
-							Mang công nghệ ion hoá khoáng nóng đỉnh cao của Nhật Bản Về Việt Nam
+							<h3 class="s4__title wow fadeInRightBig" data-wow-delay="1.4s">
+								Mang công nghệ ion hoá khoáng nóng đỉnh cao của Nhật Bản Về Việt Nam
 							</h3>
-							<div>
+							<div class="wow fadeInRightBig" data-wow-delay="1.8s">
 								<p>Swanlake là dự án đầu tiên tại Việt Nam, ứng dụng công nghệ ion hoá khoáng chất Kankyo được phát triển bởi tập đoàn Hanoke Group - tập đoàn với hơn 100 năm kinh nghiệm nghiên cứu & vận hành khoáng nóng tại Nhật Bản.</p>
 								<p>
 								Với 14 hồ khoáng nóng được “may đo” riêng biệt cho từng nhu cầu trị liệu, mỗi hồ sẽ sở hữu những công thức & tỷ lệ khoáng nóng vượt trội, kết hợp hoàn hảo cùng nhiệt độ tương thích để trị liệu cho từng nhu cầu & vấn đề về sức khoẻ của cư dân.
@@ -183,98 +183,107 @@ $source = implode(' - ',$_GET);
 		<section class="section s5" id="s5">
 			<div class="s5-wrapper">
 				<div class="s5__content">
-					<p class="s5__subtitle">
+					<p class="s5__subtitle wow zoomInUp" data-wow-delay=".4s">
 						TIỆN ÍCH
 					</p>
-					<h3 class="s5__title">
+					<h3 class="s5__title wow fadeInLeftBig" data-wow-delay=".8s">
 						Tổ hợp bất động sản trị liệu đầu tiên tại Việt Nam
 					</h3>
-					<p class="s5__desc">
+					<p class="s5__desc wow fadeInRightBig" data-wow-delay="1.2s">
 						Toàn bộ các tiện ích chăm sóc sức khoẻ của toà tháp được phát triển như một đại trung tâm trị liệu, vận hành theo một quy trình khép kín từ tư vấn, trị liệu, chăm sóc đến tái tạo và nghỉ ngơi.
 					</p>
 				</div>
-				<div class="s5__slide">
+				<div class="s5__slide wow zoomInUp" data-wow-delay="1.8s">
 					<div class="swiper-wrapper">
 						<div class="s5__item swiper-slide">
 							<div class="s5__item-img">
-								<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-1.png" />
+								<img class="swiper-lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-1.png" />
 							</div>
 							<div class="s5__item-content">
 								<p class="s5__item-title">Tổ hợp bất động sản trị liệu đầu tiên tại Việt Nam</p>
 								<p class="s5__item-desc">Toàn bộ các tiện ích chăm sóc sức khoẻ của toà tháp được phát triển như một đại trung tâm trị liệu, vận hành theo một quy trình khép kín từ tư vấn, trị liệu, chăm sóc đến tái tạo và nghỉ ngơi </p>
 							</div>
+							<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
 						</div>
 						<div class="s5__item swiper-slide">
 							<div class="s5__item-img">
-								<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-2.png" />
+								<img class="swiper-lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-2.png" />
 							</div>
 							<div class="s5__item-content">
 								<p class="s5__item-title">Tổ hợp khoáng nóng Onsen 2,400m2</p>
 								<p class="s5__item-desc"></p>
 							</div>
+							<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
 						</div>
 						<div class="s5__item swiper-slide">
 							<div class="s5__item-img">
-								<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-3.png" />
+								<img class="swiper-lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-3.png" />
 							</div>
 							<div class="s5__item-content">
 								<p class="s5__item-title">14 hồ khoáng nóng & lạnh</p>
 								<p class="s5__item-desc"></p>
 							</div>
+							<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
 						</div>
 						<div class="s5__item swiper-slide">
 							<div class="s5__item-img">
-								<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-3.png" />
+								<img class="swiper-lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-1.png" />
 							</div>
 							<div class="s5__item-content">
 								<p class="s5__item-title">5 phòng xông hơi hiện đại </p>
 								<p class="s5__item-desc">Phòng xông hơi khô Loyly, phòng xông nóng, phòng xông lạnh, phòng xông thảo mộc & phòng xông hơi đá muối Hymalaya</p>
 							</div>
+							<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
 						</div>
 						<div class="s5__item swiper-slide">
 							<div class="s5__item-img">
-								<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-3.png" />
+								<img class="swiper-lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-2.png" />
 							</div>
 							<div class="s5__item-content">
 								<p class="s5__item-title">Hồ bơi thác nước</p>
 								<p class="s5__item-desc"></p>
 							</div>
+							<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
 						</div>
 						<div class="s5__item swiper-slide">
 							<div class="s5__item-img">
-								<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-3.png" />
+								<img class="swiper-lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-3.png" />
 							</div>
 							<div class="s5__item-content">
 								<p class="s5__item-title">Detox Spa</p>
 								<p class="s5__item-desc">Chuỗi phòng detox thuỷ liệu, quang học và khí detox; Chuỗi nhà hàng & cửa hàng chuyên cung cấp các liệu trình detox; trung tâm khí liệu chuyên dạy yoga & phương pháp dưỡng sinh</p>
 							</div>
+							<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
 						</div>
 						<div class="s5__item swiper-slide">
 							<div class="s5__item-img">
-								<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-3.png" />
+								<img class="swiper-lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-1.png" />
 							</div>
 							<div class="s5__item-content">
 								<p class="s5__item-title">Central Spa</p>
 								<p class="s5__item-desc">Trung tâm spa với các công nghệ chăm sóc da, chăm sóc tóc, chăm sóc body với các loại máy móc hiện đại bậc nhất</p>
 							</div>
+							<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
 						</div>
 						<div class="s5__item swiper-slide">
 							<div class="s5__item-img">
-								<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-3.png" />
+								<img class="swiper-lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-2.png" />
 							</div>
 							<div class="s5__item-content">
 								<p class="s5__item-title">Aqua Spa</p>
 								<p class="s5__item-desc">Phòng lạnh âm, phòng nóng - lạnh đối lưu, phòng thuỷ thanh lọc</p>
 							</div>
+							<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
 						</div>
 						<div class="s5__item swiper-slide">
 							<div class="s5__item-img">
-								<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-3.png" />
+								<img class="swiper-lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-3.png" />
 							</div>
 							<div class="s5__item-content">
 								<p class="s5__item-title">Vườn thiền ion âm & vườn đá muối hồng ngoại Himalaya đầu tiên tại Việt Nam</p>
 								<p class="s5__item-desc">Với công nghệ đưa ion âm vào các vườn thiền, trung hoà lượng ion dương cơ thể tiếp thu từ năng lượng điện tử có trong điện thoại, laptop, ô nhiễm, khói bụi từ môi trường. Từ đó giúp cơ thể ức chế các vi khuẩn, tăng cường trao đổi oxy giúp cơ thể khoẻ hơn, ngủ ngon hơn.</p>
 							</div>
+							<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
 						</div>
 					</div>
 
@@ -297,45 +306,45 @@ $source = implode(' - ',$_GET);
 		<section class="section s6" id="s6">
 			<div class="s6-wrapper container">
 				<div class="s6__content">
-					<h3 class="s6__title">
+					<h3 class="s6__title wow fadeInUpBig" data-wow-delay=".4s">
 						Sở hữu chuỗi vườn Nhật 1,8ha lớn nhất Việt Nam
 					</h3>
-					<p class="s6__desc">
+					<p class="s6__desc wow fadeInUpBig" data-wow-delay=".8s">
 						Trong suốt 3 năm phát triển dự án Swanlake Resideces, đội ngũ chuyên gia cảnh quan & cây xanh Ecopark đã nghiên cứu kĩ lưỡng về cảnh quan, văn hoá & lối sống của Nhật Bản để tâm huyết thiết kế chuỗi vườn Nhật 1,8ha mang phong cách Nhật Bản lớn nhất Việt Nam.
 					</p>
 				</div>
 				<div class="row s6__list">
-					<div class="col-lg-4 col-md-6 col-xs-12 s6__item swiper-slide">
+					<div class="col-lg-4 col-md-6 col-xs-12 s6__item swiper-slide wow fadeInLeftBig" data-wow-delay="1.6s">
 						<div class="s6__item-img">
 							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s6-img-1.png" />
 						</div>
 						<p class="s6__item-title">Thác nước nhân tạo 9 tầng cao nhất Việt Nam</p>
 					</div>
-					<div class="col-lg-4 col-md-6 col-xs-12 s6__item swiper-slide">
+					<div class="col-lg-4 col-md-6 col-xs-12 s6__item swiper-slide wow fadeInLeftBig" data-wow-delay="1.2s">
 						<div class="s6__item-img">
 							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s6-img-2.png" />
 						</div>
 						<p class="s6__item-title">Vườn trà đạo</p>
 					</div>
-					<div class="col-lg-4 col-md-6 col-xs-12 s6__item swiper-slide">
+					<div class="col-lg-4 col-md-6 col-xs-12 s6__item swiper-slide wow fadeInRightBig" data-wow-delay="2s">
 						<div class="s6__item-img">
 							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s6-img-3.png" />
 						</div>
 						<p class="s6__item-title">Vườn thiền</p>
 					</div>
-					<div class="col-lg-4 col-md-6 col-xs-12 s6__item swiper-slide">
+					<div class="col-lg-4 col-md-6 col-xs-12 s6__item swiper-slide wow fadeInLeftBig" data-wow-delay="2s">
 						<div class="s6__item-img">
 							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s6-img-4.png" />
 						</div>
 						<p class="s6__item-title">Suối thác cá Koi</p>
 					</div>
-					<div class="col-lg-4 col-md-6 col-xs-12 s6__item swiper-slide">
+					<div class="col-lg-4 col-md-6 col-xs-12 s6__item swiper-slide wow fadeInRightBig" data-wow-delay="1.2s">
 						<div class="s6__item-img">
 							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s6-img-5.png" />
 						</div>
 						<p class="s6__item-title">Đường dạo hoa Anh Đào</p>
 					</div>
-					<div class="col-lg-4 col-md-6 col-xs-12 s6__item swiper-slide">
+					<div class="col-lg-4 col-md-6 col-xs-12 s6__item swiper-slide wow fadeInRightBig" data-wow-delay="1.6s">
 						<div class="s6__item-img">
 							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s6-img-6.png" />
 						</div>
@@ -349,34 +358,34 @@ $source = implode(' - ',$_GET);
 			<div class="s7-wrapper">
 				<div class="s7__content container">
 					<div class="s7__body">
-						<div class="section-item">
+						<div class="section-item wow zoomIn">
 							<div class="section-item__line"></div>
 							<span>VỊ TRÍ</span>
 						</div>
-						<h3 class="s7__title">
+						<h3 class="s7__title wow zoomIn" data-wow-delay=".4s">
 							Sở hữu vị trí đắt giá, trái tim của Ecopark
 						</h3>
-						<p class="s7__desc">
+						<p class="s7__desc wow zoomIn" data-wow-delay=".8s">
 						Swanlake Residences nằm tại vị trí trung tâm nhất khu đô thị Ecopark, vừa là tâm điểm kết nối toàn bộ các tiện ích lân cận, vừa ôm trọn công viên Hồ Thiên Nga 50ha & sân golf 10ha mang đến một tầm view hoàn hảo & đắt giá nhất.
 						</p>
 					</div>
-					<div class="s7__icon">
+					<div class="s7__icon wow zoomIn">
 						<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s7-icon.png" />
 					</div>
 				</div>
-				<div class="s7__img">
+				<div class="s7__img wow zoomInDown" data-wow-delay="1.2s">
 					<div class="s7__bg lazy" data-bg="<?php echo THEME_URL  ?>/assets/images/s7-img.png">
 						<div class="all-dot">
-							<a class="dot-num dot-01 show" href="javascript:void(0);" data-name="01" data-box="01"><span class="circle"></span></a>
-							<a class="dot-num dot-02 show" href="javascript:void(0);" data-name="02" data-box="02"><span class="circle"></span></a>
-							<a class="dot-num dot-03 show" href="javascript:void(0);" data-name="03" data-box="03"><span class="circle"></span></a>
-							<a class="dot-num dot-04 show" href="javascript:void(0);" data-name="04" data-box="04"><span class="circle"></span></a>
-							<a class="dot-num dot-05 show" href="javascript:void(0);" data-name="05" data-box="05"><span class="circle"></span></a>
-							<a class="dot-num dot-06 show" href="javascript:void(0);" data-name="06" data-box="06"><span class="circle"></span></a>
-							<a class="dot-num dot-07 show" href="javascript:void(0);" data-name="07" data-box="07"><span class="circle"></span></a>
-							<a class="dot-num dot-08 show" href="javascript:void(0);" data-name="08" data-box="08"><span class="circle"></span></a>
-							<a class="dot-num dot-09 show" href="javascript:void(0);" data-name="09" data-box="09"><span class="circle"></span></a>
-							<a class="dot-num dot-10 show" href="javascript:void(0);" data-name="10" data-box="10"><span class="circle"></span></a>
+							<a class="dot-num dot-01 show" href="javascript:void(0);" data-name="01" data-box="01"><span class="circle"></span><span class="circle-inner"></span></a>
+							<a class="dot-num dot-02 show" href="javascript:void(0);" data-name="02" data-box="02"><span class="circle"></span><span class="circle-inner"></span></a>
+							<a class="dot-num dot-03 show" href="javascript:void(0);" data-name="03" data-box="03"><span class="circle"></span><span class="circle-inner"></span></a>
+							<a class="dot-num dot-04 show" href="javascript:void(0);" data-name="04" data-box="04"><span class="circle"></span><span class="circle-inner"></span></a>
+							<a class="dot-num dot-05 show" href="javascript:void(0);" data-name="05" data-box="05"><span class="circle"></span><span class="circle-inner"></span></a>
+							<a class="dot-num dot-06 show" href="javascript:void(0);" data-name="06" data-box="06"><span class="circle"></span><span class="circle-inner"></span></a>
+							<a class="dot-num dot-07 show" href="javascript:void(0);" data-name="07" data-box="07"><span class="circle"></span><span class="circle-inner"></span></a>
+							<a class="dot-num dot-08 show" href="javascript:void(0);" data-name="08" data-box="08"><span class="circle"></span><span class="circle-inner"></span></a>
+							<a class="dot-num dot-09 show" href="javascript:void(0);" data-name="09" data-box="09"><span class="circle"></span><span class="circle-inner"></span></a>
+							<a class="dot-num dot-10 show" href="javascript:void(0);" data-name="10" data-box="10"><span class="circle"></span><span class="circle-inner"></span></a>
 						</div>
 					</div>
 				</div>
@@ -416,7 +425,7 @@ $source = implode(' - ',$_GET);
 			</div>
 			<div class="s7-info__box no-pic" data-box="07">
 				<div class="s7-info__box-text">
-					<p>THơn 100+ nhà hàng & coffee giữa thiên nhiên</p>
+					<p>Hơn 100+ nhà hàng & coffee giữa thiên nhiên</p>
 				</div>
 			</div>
 			<div class="s7-info__box no-pic" data-box="08">
@@ -439,17 +448,17 @@ $source = implode(' - ',$_GET);
 		<section class="section s8 lazy" id="s8" data-bg="<?php echo THEME_URL  ?>/assets/images/s8-bg.png">
 			<div class="s8-wrapper container">
 				<div class="row">
-					<div class="col-lg-4 s8__content">
+					<div class="col-lg-4 s8__content wow bounceInLeft" data-wow-delay=".8s">
 							<p class="s8__content-subtle">Layout tầng điển hình</p>
 							<h3 class="s8__content-title">Swanlake residences R1</h3>
 							<p class="s8__content-desc">Tầng 08A - 18, 22 - 37</p>
 							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s8-img-1.png" />
 							<p class="s8__content-note">* Mọi thông tin trên layout đúng tại thời điểm phát hành, thông số đúng được quy định tại văn bản Chủ đầu tư ký kết với Khách hàng Swanlake residence R1  18/06/2021</p>
 					</div>
-					<div class="col-lg-6 s8__img">
+					<div class="col-lg-6 s8__img wow wobble" data-wow-delay=".4s" data-wow-duration="1.5s">
 						<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s8-img-2.png" />
 					</div>
-					<div class="col-lg-2 s8__icon">
+					<div class="col-lg-2 s8__icon wow heartBeat" data-wow-delay="1.6s" data-wow-duration="2s" data-wow-iteration="3">
 						<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s8-img-3.png" />
 					</div>
 				</div>
@@ -458,10 +467,10 @@ $source = implode(' - ',$_GET);
 
 		<div class="section contact" id="s9">
 			<div class="contact__content">
-				<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/logo.png" />
-				<h3>nhận thông tin dự án</h3>
+				<img class="lazy wow zoomIn" data-src="<?php echo THEME_URL  ?>/assets/images/logo.png" />
+				<h3 class="wow zoomIn" data-wow-delay=".4s">nhận thông tin dự án</h3>
 			</div>
-			<div class="contact__form wow-6 fadeInUpBig"  data-wow-duration="2s">
+			<div class="contact__form wow bounce" data-wow-delay=".4s" data-wow-duration="2s">
 					<div class="row">
 						<div class="">
 							<label>Họ và Tên</label>
