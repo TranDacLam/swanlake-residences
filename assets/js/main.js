@@ -30,13 +30,13 @@ $(function () {
 			320: {
 				slidesPerView: 1,
 				spaceBetween: 0,
-				navigation: false
+				// navigation: false
 			},
 			// when window width is >= 480px
 			480: {
 				slidesPerView: 1,
 				spaceBetween: 0,
-				navigation: false
+				// navigation: false
 			},
 			// when window width is >= 640px
 			768: {

@@ -3,7 +3,7 @@ $(function () {
     //     e.preventDefault();
     //     alert(1);
     // })
-    $('.contact__content').validate({
+    $('.contact__form').validate({
         rules: {
             c_name: 'required',
             c_phone: 'required',

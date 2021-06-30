@@ -104,14 +104,28 @@
 	}
 	@media only screen and (max-width: 768px) {
 		.s2{
-			padding: 80px 0;
+			padding: 0;
+			background-image: none !important;
+			&__md{
+				display: none;
+			}
+			&__xs{
+				display: block;
+			}
 		}
 		.s3{
 			padding-bottom: 0;
 		}
+		
 		.s5{
 			&__desc{
 				max-width: 100%;
+			}
+			&__arrow{
+				&:hover{
+					transform: translateY(-50%);
+					background-color: #0000005c;
+				}
 			}
 		}
 		.s6{
@@ -161,6 +175,16 @@
 			&__icon{
 				img{
 					width: 100px;
+				}
+			}
+		}
+		.s4{
+			&__img{
+				&-md{
+					display: none;
+				}
+				&-xs{
+					display: block;
 				}
 			}
 		}
