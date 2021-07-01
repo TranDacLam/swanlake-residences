@@ -1,6 +1,7 @@
 $(function () {
 
 	var heightHeader = 56
+	var swiper6;
 
 	var myLazyLoad = new LazyLoad();
 	
@@ -9,10 +10,11 @@ $(function () {
 	}
 
 	scaleAndPositionImage()
+	onLoadSwiprtS6()
 	tooltipS7()
 	$( window ).resize(function() {
 		scaleAndPositionImage()
-		
+		onLoadSwiprtS6()
 	});
 
 	var swiper5 = new Swiper(".s5__slide", {
@@ -67,6 +69,7 @@ $(function () {
 						$('.navbar a').eq(i).addClass('active');
 				}
 		});
+
 	}).scroll();
 
 	$('a[href^="#"]').bind('click', function(e) {
@@ -100,6 +103,28 @@ $(function () {
 
 	$('#loading').css({ 'opacity': '0' });
 	$('#loading').css({ 'display': 'none' });
+
+	function onLoadSwiprtS6(){
+		if (window.matchMedia('(max-width: 480px)').matches){
+			swiper5 = new Swiper(".s6__list", {
+				slidesPerView: 1,
+				spaceBetween: 0,
+				loop: true,
+				slidesPerGroup: 1,
+				lazy: true,
+				pagination: {
+          el: ".s6__pagination",
+					clickable: true,
+        },
+			});
+		}else{
+			if ( swiper5 !== undefined ){
+				setTimeout(function(){
+					swiper5.destroy( true, true );
+				})
+			}
+		}
+	}
 
 	function scaleAndPositionImage() {
 		let elBg = $('.s7__bg')

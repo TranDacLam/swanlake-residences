@@ -161,6 +161,13 @@
 			}
 		}
 	}
+	@media only screen and (min-width: 480px) {
+		.s6{
+			.swiper-lazy-preloader{
+				display: none;
+			}
+		}
+	}
 	@media only screen and (max-width: 480px) {
 		.header{
 			&__name{
@@ -186,6 +193,28 @@
 				&-xs{
 					display: block;
 				}
+			}
+		}
+		.s6{
+			.row{
+				margin-right: 0;
+				margin-left: 0;
+				flex-wrap: nowrap;
+			}
+			&__content{
+				margin-bottom: 30px;
+			}
+			&__pagination{
+				display: block;
+			}
+			&__list{
+				margin-left: -15px;
+    		margin-right: -15px;
+				overflow: hidden;
+			}
+			&__item{
+				padding-right: 0;
+   		 	padding-left: 0;
 			}
 		}
 		.s7{
