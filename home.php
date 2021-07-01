@@ -312,37 +312,37 @@ $source = implode(' - ',$_GET);
 				<div class="row s6__list wow slideInUp" data-wow-duration="1.5s">
 					<div class="col-lg-4 col-md-6 col-xs-12 s6__item swiper-slide">
 						<div class="s6__item-img">
-							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s6-img-1.jpg" />
-						</div>
-						<p class="s6__item-title">Thác nước nhân tạo 9 tầng cao nhất Việt Nam</p>
-					</div>
-					<div class="col-lg-4 col-md-6 col-xs-12 s6__item swiper-slide">
-						<div class="s6__item-img">
-							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s6-img-2.jpg" />
-						</div>
-						<p class="s6__item-title">Vườn trà đạo</p>
-					</div>
-					<div class="col-lg-4 col-md-6 col-xs-12 s6__item swiper-slide">
-						<div class="s6__item-img">
-							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s6-img-3.jpg" />
+							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s6-img-1.jpg?v=1" />
 						</div>
 						<p class="s6__item-title">Vườn thiền</p>
 					</div>
 					<div class="col-lg-4 col-md-6 col-xs-12 s6__item swiper-slide">
 						<div class="s6__item-img">
-							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s6-img-4.jpg" />
+							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s6-img-2.jpg?v=1" />
 						</div>
-						<p class="s6__item-title">Suối thác cá Koi</p>
+						<p class="s6__item-title">Vườn trà đạo</p>
 					</div>
 					<div class="col-lg-4 col-md-6 col-xs-12 s6__item swiper-slide">
 						<div class="s6__item-img">
-							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s6-img-5.jpg" />
+							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s6-img-3.jpg?v=1" />
+						</div>
+						<p class="s6__item-title">Thác nước nhân tạo 9 tầng cao nhất Việt Nam</p>
+					</div>
+					<div class="col-lg-4 col-md-6 col-xs-12 s6__item swiper-slide">
+						<div class="s6__item-img">
+							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s6-img-4.jpg?v=1" />
 						</div>
 						<p class="s6__item-title">Đường dạo hoa Anh Đào</p>
 					</div>
 					<div class="col-lg-4 col-md-6 col-xs-12 s6__item swiper-slide">
 						<div class="s6__item-img">
-							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s6-img-6.jpg" />
+							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s6-img-5.jpg?v=1" />
+						</div>
+						<p class="s6__item-title">Suối thác cá Koi</p>
+					</div>
+					<div class="col-lg-4 col-md-6 col-xs-12 s6__item swiper-slide">
+						<div class="s6__item-img">
+							<img class="lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s6-img-6.jpg?v=1" />
 						</div>
 						<p class="s6__item-title">Đường dạo hoa Tử Đằng đầu tiên của Việt Nam </p>
 					</div>
