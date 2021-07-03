@@ -203,7 +203,7 @@ $source = implode(' - ',$_GET);
 					<div class="swiper-wrapper">
 						<div class="s5__item swiper-slide">
 							<div class="s5__item-img">
-								<img class="swiper-lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-1.jpg" />
+								<img class="swiper-lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-1.jpg?v=1" />
 							</div>
 							<div class="s5__item-content">
 								<p class="s5__item-title">Tổ hợp khoáng nóng Onsen 2,400m2</p>
@@ -213,7 +213,7 @@ $source = implode(' - ',$_GET);
 						</div>
 						<div class="s5__item swiper-slide">
 							<div class="s5__item-img">
-								<img class="swiper-lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-2.jpg" />
+								<img class="swiper-lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-2.jpg?v=1" />
 							</div>
 							<div class="s5__item-content">
 								<p class="s5__item-title">14 hồ khoáng nóng & lạnh</p>
@@ -223,7 +223,7 @@ $source = implode(' - ',$_GET);
 						</div>
 						<div class="s5__item swiper-slide">
 							<div class="s5__item-img">
-								<img class="swiper-lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-3.png" />
+								<img class="swiper-lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-3.jpg?v=1" />
 							</div>
 							<div class="s5__item-content">
 								<p class="s5__item-title">5 phòng xông hơi hiện đại </p>
@@ -233,7 +233,7 @@ $source = implode(' - ',$_GET);
 						</div>
 						<div class="s5__item swiper-slide">
 							<div class="s5__item-img">
-								<img class="swiper-lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-4.jpg" />
+								<img class="swiper-lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-4.jpg?v=1" />
 							</div>
 							<div class="s5__item-content">
 								<p class="s5__item-title">Hồ bơi thác nước phong cách Nhật </p>
@@ -243,7 +243,7 @@ $source = implode(' - ',$_GET);
 						</div>
 						<div class="s5__item swiper-slide">
 							<div class="s5__item-img">
-								<img class="swiper-lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-5.jpeg" />
+								<img class="swiper-lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-5.jpeg?v=1" />
 							</div>
 							<div class="s5__item-content">
 								<p class="s5__item-title">Detox Spa</p>
@@ -253,7 +253,7 @@ $source = implode(' - ',$_GET);
 						</div>
 						<div class="s5__item swiper-slide">
 							<div class="s5__item-img">
-								<img class="swiper-lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-6.png" />
+								<img class="swiper-lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-6.png?v=1" />
 							</div>
 							<div class="s5__item-content">
 								<p class="s5__item-title">Central Spa</p>
@@ -263,7 +263,7 @@ $source = implode(' - ',$_GET);
 						</div>
 						<div class="s5__item swiper-slide">
 							<div class="s5__item-img">
-								<img class="swiper-lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-7.png" />
+								<img class="swiper-lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-7.png?v=1" />
 							</div>
 							<div class="s5__item-content">
 								<p class="s5__item-title">Aqua Spa</p>
@@ -273,7 +273,7 @@ $source = implode(' - ',$_GET);
 						</div>
 						<div class="s5__item swiper-slide">
 							<div class="s5__item-img">
-								<img class="swiper-lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-8.jpg" />
+								<img class="swiper-lazy" data-src="<?php echo THEME_URL  ?>/assets/images/s5-img-8.jpg?v=1" />
 							</div>
 							<div class="s5__item-content">
 								<p class="s5__item-title">Vườn thiền ion âm & vườn đá muối hồng ngoại Himalaya đầu tiên tại Việt Nam</p>
