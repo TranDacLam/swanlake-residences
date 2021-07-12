@@ -379,7 +379,7 @@ $source = implode(' - ',$_GET);
 					</div>
 				</div>
 				<div class="s7__img wow slideInUp" data-wow-duration="1.5s">
-					<div class="s7__bg lazy" data-bg="<?php echo THEME_URL  ?>/assets/images/s7-img.jpg">
+					<div class="s7__bg lazy" data-bg="<?php echo THEME_URL  ?>/assets/images/s7-img.jpg?v=1">
 						<div class="all-dot">
 							<a class="dot-num dot-01 show" href="javascript:void(0);" data-name="01" data-box="01"><span class="circle"></span><span class="circle-inner"></span></a>
 							<a class="dot-num dot-02 show" href="javascript:void(0);" data-name="02" data-box="02"><span class="circle"></span><span class="circle-inner"></span></a>
